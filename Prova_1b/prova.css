@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(to bottom,rgb(79, 0, 168),rgb(0, 192, 182)) no-repeat;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+header{
+    text-align: center;
+}
+header h1{
+    color: white;
+}
+.logim_back{
+    background: purple;
+    width: 12vw;
+    border-radius: 20px;
+}
+img{
+    background-position: 100%;
+    position: absolute;
+    width: 49.5%;
+    height: 50%;
+    top: 1%;
+    left: 50%;
+}
+.textfield input{
+    background: rgb(0, 192, 182);
+    border-radius: 20px;
+
+}  
+.texto{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.pes{
+    color: white;
+}
+.chave{
+    color: white;
+}
+.entrar{
+    background-color: rgb(0, 192, 182);
+    border: 2px solid rgb(0, 192, 182);
+    border-radius: 8px;
+}
+.senha{
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 192, 182);
+}
+.face{
+    color: blue;
+}
+.insta{
+    color: rgb(255, 0, 255);
+    
+}
