@@ -1,0 +1,18 @@
+<h1>Raul Gallert Severino</h1>
+<p></p>
+<form>
+    <label>Nome:</label> <input type="text" id="inno">
+    <label>Idade:</label><input type="text" id="inida"><br>
+    <button type="button" onclick="calula_dias()">Calcular dias</button>
+    <h3 id="res"></h3>
+</form>
+<script>
+    frm = document.querySelector("form")
+    resp = document.querySelector("h3")
+    function calula_dias(){
+        let no = frm.inno.value
+        let id = frm.inida.value
+        let to = 365 * id
+        resp.innerText =`${no.toUpperCase()}, VOCE JA VIVEU ${to} DIAS`
+    }
+</script>

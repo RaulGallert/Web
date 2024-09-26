@@ -1,0 +1,21 @@
+<h1>Raul Gallert Severino</h1>
+<p></p>
+<form>
+    <label>Pão:</label> <input type="text" id="inpao">
+    <label>Broa:</label><input type="text" id="inbroa"><br>
+    <button type="button" onclick="calula_total()">Calcular total</button>
+    <h3 id="res"></h3>
+</form>
+<script>
+    frm = document.querySelector("form")
+    resp = document.querySelector("h3")
+    function calula_total(){
+        const p = 0.12
+        const broa = 1.5
+        let pc = frm.inpao.value
+        let bc = frm.inbroa.value
+        let c = pc * p + bc * broa
+        let po = c * 0.1
+        resp.innerText = `O total sera de: R$${c.toFixed(2)}\nR$${po.toFixed(2)} sera quardado na popanca`
+    }
+</script>

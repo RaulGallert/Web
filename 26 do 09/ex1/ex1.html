@@ -1,0 +1,18 @@
+<h1>Raul Gallert Severino</h1>
+<p></p>
+<form>
+    <label>Largura:</label> <input type="text" id="lar">
+    <label>Comprimento:</label> <input type="text" id="com"><br>
+    <button type="button" onclick="calula_area()">Calcular area</button>
+    <h3 id="res"></h3>
+</form>
+<script>
+    frm = document.querySelector("form")
+    resp = document.querySelector("h3")
+    function calula_area(){
+        const l1 = frm.lar.value
+        const l2 = frm.com.value
+        const area = l1*l2
+        resp.innerText = `A area do retangulo eh de: ${area}m²`
+    }
+</script>

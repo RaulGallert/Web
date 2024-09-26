@@ -1,0 +1,16 @@
+<h1>Raul Gallert Severino</h1>
+<p></p>
+<form>
+    <label>Cavalos:</label> <input type="text" id="cav"><br>
+    <button type="button" onclick="calula_ferradura()">Calcular ferraduras</button>
+    <h3 id="res"></h3>
+</form>
+<script>
+    frm = document.querySelector("form")
+    resp = document.querySelector("h3")
+    function calula_ferradura(){
+        const ca = frm.cav.value
+        const fer = ca*4
+        resp.innerText = `Vai usar ${fer} feraduras`
+    }
+</script>
