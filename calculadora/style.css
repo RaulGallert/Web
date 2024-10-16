@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0%;
+    background: rgba(167,0,0);
+    background: linear-gradient(rgba(167,0,0,1) 25%, rgba(0,7,130,1) 75%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div{
+    position: relative;
+    top: 30vh;
+    left: 40vw;
+
+    color: white;
+    height: 40vh;
+    width: 15vw;
+    background-color: rgb(44, 42, 33); 
+
+    border-style: solid;
+    border-color: rgb(44, 42, 33);
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    left: 1.5vh;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+p{
+    text-align: center;
+}
+
+.igual{
+    position: absolute;
+    left: 21vh;
+    top: 16.5vh;
+    height: 21.5vh;
+}
+
+input{
+    width: 95%;
+}
