@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Teste API</title>
+</head>
+<body>
+    <header>
+        <h1><i>Uso da API ViaCEP</i></h1>
+    </header>
+
+<form>
+  <div class="form-group row">
+    <label for="inpCEP" class="col-4 col-form-label">CEP</label> 
+    <div class="col-8">
+      <input id="inpCEP" name="inpCEP" type="text" class="form-control" maxlength="9" onblur="pesquisacep(this.value)">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="txtRua" class="col-4 col-form-label">Rua</label> 
+    <div class="col-8">
+      <input id="txtrua" name="txtrua" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="txtbar" class="col-4 col-form-label">Bairro</label> 
+    <div class="col-8">
+      <input id="txtbar" name="txtbar" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="txtci" class="col-4 col-form-label">Cidade</label> 
+    <div class="col-8">
+      <input id="txtci" name="txtci" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="txtes" class="col-4 col-form-label">Estado</label> 
+    <div class="col-8">
+      <input id="txtuf" name="txtes" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="txtibge" class="col-4 col-form-label">IBGE</label> 
+    <div class="col-8">
+      <input id="txtibge" name="txtibge" type="text" class="form-control">
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
